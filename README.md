@@ -1,10 +1,10 @@
 
-## ns_profile
+## collectors_showcase
 <a > <img width ='100%'  height ='2px' src ='https://upload.wikimedia.org/wikipedia/commons/b/bf/GradientPurpleBlue.png'> 
 
 [![SIGMA](https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/slow.gif)](https://neuroshack.io) 
 
-# Neuroshack's profile conceptual framework
+# Neuroshack's personal showcase for your digital art
  Details:  This is a practice profile page for Neuroshack.io
            The framework is meant to be simple but the code 
            might need more structure. Looking to maybe intergate
