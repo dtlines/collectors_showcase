@@ -5,7 +5,7 @@
 [![SIGMA](https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/slow.gif)](https://neuroshack.io) 
 
 # Neuroshack's personal showcase for your digital art
- Details:  This is a practice profile page for Neuroshack.io
+ Details:  This is new framework for displaying your digital owned art.
            The framework is meant to be simple but the code 
            might need more structure. Looking to maybe intergate
            a .json file for better operability.                                                                                          
