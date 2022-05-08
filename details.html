@@ -1,0 +1,390 @@
+<!DOCTYPE html>                                                                     
+<html>                                                                              
+                                                                               <!--                                                            
+   +------------------------------------------+                                    
+   |  https://www.neuroshack.io/              |                                      
+   |  Created and modified by PRIM4T and dt   |                                    
+   |  https://www.PRIM4T.art/                 |                                   
+   |  https://www.codepen.io/dt_zero          |                                     
+   +------------------------------------------+                               
+          							        -->
+<!--     Notes: 
+		- Whitepaper outdated 
+		- Links are not linking to actual source
+-->
+  <body>                                                                             
+                                                          <!--                              
+   .______________________________________________________________.                                        
+   |              !BANNER_IMG                                     |             -->
+    <!-- <img src="banner.tiff" width="400" height="50" src="img.tiff">  -->           <!-- 
+   |______________________________________________________________|             -->
+                                                                                
+<head>
+                                                                             
+<title>/ N E U R O S H A C K's the Offical Webpage | Updated:050222 /   </title>
+                                                                   
+<!-- -->                                                                                            
+  <meta charset=UTF-8">                                                                                  
+<!-- -->                                                                                                 
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">    
+  <meta name="keywords" content="null, null">                                             
+  <meta property="og:title" content="null">                                                               
+  <meta name="owner" content="null">                                                                       
+  <meta property="og:description" content="null">                                                       
+  <meta property="og:site_name" content="null">                                                       
+<!--                                                                                                   
+  	+-------+                                                                                       
+   	|  CSS  |                                                                                     
+   	+-------+                                                                                   
+-->                                                                                                
+<style>                                                                                   
+body {
+/*font*/font-family: monospace;
+/*bold*/font-weight: 400;
+/*tiny*/font-size: 15pt;
+  /*
+	   Note:
+	       the "em" value is based on the width of
+	       the uppercase M   
+*/
+        padding-left: 1em;
+        padding-right: 1em;
+	padding-top: 7px;
+        padding-bottom: 50px;        
+}
+video {
+padding-left: 46px;
+}
+iframe {
+padding-left: 45px;
+}
+span {
+ margin-left: 69px;
+}
+a {
+      color: #754f4f;
+      text-decoration: none;
+    }
+/* */
+
+/*Headers*/
+header {
+margin-left: 235px;
+}
+h1 {
+        font-size: 200%;
+}
+
+h2 {
+        font-size: 167%;
+}
+
+h3 {
+	margin-left: 59px;
+        font-size: 75%;
+        font-weight: normal;
+}
+/*Links*/
+a {
+        text-decoration: none;
+        font-weight: 3;
+
+}
+/*List+Paragraph*/
+p, ul {
+	font-size: 90%;
+        margin-left: 1.5em;
+}
+
+p.lede {
+        font-size: 120%;
+        margin-left: 1.25em;
+}
+/*List_Style*/
+ul {
+        list-style: none;
+        margin-left: 0;
+        padding-left: 3em;
+}
+ul li {
+        margin-top: 5pt;
+        margin-bottom: 5pt;
+}
+ul li::before {
+        content: "•";
+        color: #c08e8e;
+        font-weight: bold;
+        display: inline-block;
+        width: 1.1em;
+        margin-left: -1.1em;
+}
+
+blockquote {
+        margin-left: 2.25em;
+        font-style: italic;
+        font-weight: 300;
+        padding-left: 0.75em;
+        border-left: 1px solid #597f7d;
+}
+/*pre_text*/
+pre {
+        font-family: 'Fira Mono', monospace;
+        font-size: 75.15%;
+        margin-left: 1em;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+nav {
+        font-family: 'monospace;
+        font-size: 50.15%;
+        margin-left: 555px;
+	overflow: hidden;
+}
+
+img {
+        max-width: 100%;
+	padding-left: 75px;
+}
+section {
+        font-family: 'Fira Mono', monospace;
+        font-size: 75.15%;
+        margin-left: 100px;
+	max-width: 100%;
+	overflow: hidden;
+}
+footer {
+   position: fixed;
+   width: 100%;
+   bottom: 0%;
+   left: 50%;
+   transform: translate(-50%, 0);
+   padding-left: 300px;
+   padding-right: 1%;
+   padding-bottom: 1%;
+   background-color: rgba(24, 23, 20, 0.80); 
+}
+
+/*BUTTONS*/
+.button1 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: inline-block;
+  cursor: crosshair;
+  padding: 3px 6px;
+  font-size: 200%;
+  background-color: #c08e8e; 
+  color: #181714; 
+  /*border: 2px solid #c08e8e;*/
+}
+
+.button1:hover {
+ background-color: #181714;
+  color: #c08e8e;
+}
+.button999 {
+   display: inline-flex;
+  /*cursor: crosshair;*/
+   padding: 0px 0px;
+   font-size: 15px;
+   font-weight: 200;
+   background-color: black; 
+   
+   color: #754f4f; 
+  /*border: 2px solid #754f4f;*/
+}
+
+.button2 {
+  display: inline-block;
+  cursor: crosshair;
+  /*padding: 1px 1px;*/
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-bottom: 4px;
+   padding-top: 0px;
+  font-size: 25px;
+  background-color: #000000; 
+  color: #754f4f; 
+}
+
+.button2:hover {
+  background-color: #754f4f;
+  color: #000000;
+}
+
+  /*  Button */
+  /*  B_#18 */
+
+.button18 {
+  display: inline-block;
+  cursor: pointer;
+  padding: 3px 6px;
+  font-size: 9px;
+  background-color: #181714; 
+  color: #754f4f; 
+  /*border: 1px solid #754f4f;*/
+}
+
+.button24 {
+ /* display: inline-block;*/
+ /* cursor: pointer;*/
+ /* padding: 3px 6px;*/
+  /*font-size: 9px;*/
+  /*background-color: #181714; */
+  /*color: #754f4f;*/ 
+  /*border: 1px solid #754f4f;*/
+}
+.button24:hover {
+  background-color: #754f4f;
+  /*color: #181714;*/
+}
+
+.button24:hover {
+  background-color: #000000;
+  /*color: #181714;*/
+}
+.button9 {
+  display: inline-block;
+  cursor: pointer;
+  padding: 3px 6px;
+  font-size: 11px;
+  background-color: #181714; 
+  color: #754f4f; 
+  border: 1px solid #754f4f;
+}
+
+.button9:hover {
+  background-color: #754f4f;
+  color: #181714;
+}
+
+/* Colors */
+
+body { background: #181714; color: #c08e8e; }
+p.lede { color: #c08e8e; }
+blockquote { color: #c08e8e; }
+pre { color: #c08e8e; }
+h1 { color: #c08e8e; }
+h2 { color: #c08e8e; }
+h3 { color: #754f4f; }
+
+/* Responsivity */
+
+@media only screen and (max-width: 499px) and (orientation: portrait) {
+        body { font-size: 12pt; -webkit-text-size-adjust: 100%;
+        padding-left: 0; padding-right: 0; }
+}
+@media only screen and (orientation: landscape) and (max-width: 850px) {
+        body { font-size: 12pt; -webkit-text-size-adjust: 100%;
+        padding-left: 0; padding-right: 0; }
+}
+/*              */
+</style>
+</head>
+<!--  
+-->
+<body>
+
+<div>
+  <font size="4" color="oldlace">
+    <header><!--null--></header> 
+  </font>
+</div>
+
+<div style="line-height: 2"><pre>  
+<span class="neon">  ⟠ .io
+			 Address: 0xf12-38123812-31293u747123-12-3123010231B
+                         <i>are
+		         th-120832-234ded visions.</font></i>
+	                 ERC-1155:<i> <a href="echnology/" style="cursor:crosshair">Polygon Network</a> / <a href="https://k" style="cursor:crosshair">Opensea</a></i> </pre>
+      </span></div>
+<div>
+  <!-- Menu -->
+<nav>
+<a href="hase" style="cursor:crosshair" class="button button2"><strong><font size="6">showcase</font></strong></a> |
+<a href="g" style="cursor:crosshair" class="button button2"><strong><font size="6">blog</font></strong></a> |
+<a href="ack" style="cursor:crosshair" class="button button2"><strong><font size="6">git</font></strong></a>
+</div>
+</nav>
+		<!--
+		+------------+
+		| text_start |
+		+------------+
+		-->
+              <pre>
+	   <font size="5"><i>## showcase:</font>	</i>
+		</pre>                               
+                                                                             
+           <div>
+
+</div>
+<pre>	
+						   -+- 
+	 	      <img src=" ">
+	Title:         <font class="button button999"></font>  
+	Type:  	       <i>.mp4</i>        
+	Creator:                           
+	Narrator:               
+	Artwork:          
+	Token: 	       <a href=" ">2r4r34464etb46d2c..</a>
+	Hosted:        <a href=" " style="cursor:crosshair" target="_blank" class="button button24">httl/UCYeit9O39VYjYRxVlIStKQw</a>
+
+						   -+-  	
+		      <img src=" ">
+	Contact:       <a href=" " style="cursor:crosshair" class="button button24" target="_blank">08A89cF0599974963</a>		                
+	Title:         <font class="button button999"> </font>	
+	Type:          <i>.mp4</i>
+	Creator:       null
+	Tracks:        A. 
+ 	               B. 
+	Cover:         dt
+	Contributors: 
+	               1.      2. 
+	               3.      4. 
+	               5.      5. 
+	Token:         <a href=" " class="button button24" style="cursor:crosshair" target="_blank">null..</a>
+	Text:            
+
+						   -+-
+		            <img src="githubHOSTED-image_of_mini_discNFT_here.gif" width="350px" height="350px">
+	Contact:       <a href="4963" style="cursor:crosshair" class="button button24" target="_blank">0F0599974963</a>		                            
+	Type:          <i>.mp4</i>
+	Creator(s):    Neuroac
+	Track:         Audiobroas Spae
+	Cover:         1. _j0u           2. tskos
+	               3. tah .             4. PuU.
+   	Contributors:  1. kralsos           2. Vi9rums
+	Hosted:        <a href="0807641554945" style="cursor:crosshair" class="button button24" target="_blank">httc/0x2953399124f0cbb46d..</a>
+
+						   -+-
+		      <img src="htt/dt.jpg" height="1000px">
+	Contact:       <a href="httpscd8a89cf0599974963" style="cursor:crosshair" class="button button24" target="_blank">0cF0599974963</a>		                            
+	Title:         <font class="button button999">SCRusic</font> 	
+        Type:          </i>.mp4</i>
+	Creator(s):    Nurock
+	Cover:         PRIM4T  
+	Contributors:  1. HelII      2. Vala
+	Token:         <a href="http348608618299393" style="cursor:crosshair" class="button button24" target="_blank">https/0x29533991..</a>
+	Hosted:	       <a href="hADIg" style="cursor:crosshair" class="button button24" target="_blank">http.outubewqADIg</a>
+	
+						   -+-
+		      <img src="https://raeain/gif.gif">
+	Contact:       <a href="https://po/0x29533974963" style="cursor:crosshair" class="button button24" target="_blank">89cF0599974963</a>		                            
+	Title:         <font class="button button999">Neu1</font> 	
+	Type:          <i>.mp4</i>
+	Creator(s):    Nurck 
+	Contributors:  Mae J.B.
+	Token:         <a href="https://open347509106671617" style="cursor:crosshair" class="button button24" target="_blank">http://opex2953399..</a>
+
+
+	Donations: 
+		   
+</pre>
+<!--
+ -->
+<footer><pre>
+              <font color="#754f4f"> © Nack 2022    </font> 
+	        <a href="https://neuract/" style="cursor:crosshair">Contact </a><font color="#754f4f">|</font> <a href="httpbout/" style="cursor:crosshair">About</footer>
+
+	
+-->
