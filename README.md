@@ -9,8 +9,10 @@
            The framework is meant to be simple but the code 
            might need more structure. Looking to maybe intergate
            a .json file for better operability.                                                                                          
-  
-Fork it to help better development, any contributions will be greatly appreciated!
+# Updates [June]
+Example page: https://dtlines.github.io/collectors_showcase/ 
+ 
+Fork it, any contributions will be greatly appreciated!
 
 | #GRIN | #Ethereum |  #bitcoin |
 | --- |  --- | --- |
