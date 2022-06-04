@@ -4,14 +4,11 @@
 
 [![SIGMA](https://raw.githubusercontent.com/dtrieb123/neuroshack/main/media/slow.gif)](https://neuroshack.io) 
 
-## Showcase page
-### for your digital art
- Details:  This is new framework for displaying your digital owned art.
-           The framework is meant to be simple but the code 
-           might need more structure. Looking to maybe intergate
-           a .json file for better operability.                                                                                          
+Showcase page for your digital art
+ 
 ### Updates [June]
-Example page: https://dtlines.github.io/collectors_showcase/ 
+-Example page: https://dtlines.github.io/collectors_showcase/ 
+-json file update later this month
  
 Fork it, any contributions will be greatly appreciated!
 
